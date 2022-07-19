@@ -2,9 +2,9 @@
   "name": "@webit/cookie-helper",
   "version": "1.0.0",
   "description": "",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "babel src -d lib"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/webit-de/cookie-helper-js#readme",
   "dependencies": {
+    "@babel/cli": "^7.18.9",
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
     "cookie-js": "^0.0.1"
+  },
+  "babel": {
+    "presets": ["@babel/preset-env"]
   }
 }
