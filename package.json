@@ -11,7 +11,7 @@
     "url": "git+https://github.com/webit-de/cookie-helper-js.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/webit-de/cookie-helper-js/issues"
   },
